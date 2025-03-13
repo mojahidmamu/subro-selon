@@ -13,7 +13,9 @@ const Login = () => {
         <p className="font-bold">
           Don't have an account ?{" "}
           <span className="text-red-500 underline" >
-            <Link to='newAcount'>Create an account</Link>
+            <Link to='/account'>
+              <button className="btn btn-outline">Create an account</button>
+            </Link>
           </span>
         </p>
       </div>

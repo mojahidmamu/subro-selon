@@ -19,13 +19,11 @@ import NewAccount from "../NewAccount/NewAccount";
         {
             path: '/login',
             element: <Login></Login>,
-            children: [
-                {
-                    path: '/newAcount', 
-                    element: <NewAccount></NewAccount>
-                }
-            ]
-        }, 
+        },
+        {
+          path: '/account',
+          element: <NewAccount></NewAccount>
+        }
 
       ]
     },
