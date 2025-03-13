@@ -41,7 +41,7 @@ const NewAccount = () => {
         </div>
         <button className="btn btn-secondary">Create an account</button> <br />
         <p className="font-bold">
-           Already have an account ? {" "}
+          Already have an account ?{" "}
           <span className="text-red-500 underline">
             <Link to="/login">
               <button className="btn btn-outline">Login </button>
@@ -50,7 +50,11 @@ const NewAccount = () => {
         </p>
       </form>
       <div className="divider"></div>
-      <button className="btn">Login with Google</button> <br />
+      <div>
+         
+        <button className="btn">Login with Google</button> <br />
+        <button className="btn my-3">Login with Facebook</button>
+      </div>
     </div>
   );
 };
