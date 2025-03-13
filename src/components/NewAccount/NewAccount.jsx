@@ -7,14 +7,8 @@ const NewAccount = () => {
       <h1 className="font-bold text-3xl my-2">Create an account</h1>
       <form>
         <div className="my-3">
-          <label className="fieldset-label font-bold mb-3">First Name</label>{" "}
-          <br />
-          <input type="text" className="input" placeholder="First Name" />
-        </div>
-        <div className="my-3">
-          <label className="fieldset-label font-bold mb-3">Last Name</label>{" "}
-          <br />
-          <input type="text" className="input" placeholder="Last Name" />
+          <label className="fieldset-label font-bold mb-3"> Name</label> <br />
+          <input type="text" className="input" placeholder=" Name" />
         </div>
         <div className="my-3">
           <label className="fieldset-label font-bold mb-3">
@@ -51,7 +45,6 @@ const NewAccount = () => {
       </form>
       <div className="divider"></div>
       <div>
-         
         <button className="btn">Login with Google</button> <br />
         <button className="btn my-3">Login with Facebook</button>
       </div>
