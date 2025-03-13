@@ -1,16 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../assets/assets/icons/logo.png"
 
 const Navbar = () => {
   const NavLinks = <>
   
-  <Link><li><a>Home</a></li></Link>
+  <Link to='/'><li><a>Home</a></li></Link>
   <Link><li><a>Our Portfolio</a></li></Link>
   <Link><li><a>Our Team</a></li></Link>
   <Link><li><a>Contact Us</a></li></Link>
   </>;
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-base-100 shadow-sm  mt-3 mb-6">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -37,7 +38,9 @@ const Navbar = () => {
             {NavLinks}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a className="btn btn-ghost text-xl">
+            <img className="w-28 h-16" src={logo} alt="" />
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{NavLinks}</ul>
