@@ -6,8 +6,7 @@ import MainLayout from "./MainLayout/MainLayout";
 import Home from "../Home/Home";
 import Login from "../Login/Login";
 import NewAccount from "../NewAccount/NewAccount";
-import Services from "../Services/Services";
-import BookService from "../BookService/BookService";
+import Services from "../Services/Services"; 
 
   const router = createBrowserRouter([
     {
@@ -30,10 +29,6 @@ import BookService from "../BookService/BookService";
           path: '/service',
           element: <Services></Services>,
         },
-        {
-          path: '/book',
-          element: <BookService></BookService>
-        }
       ]
     },
   ]);

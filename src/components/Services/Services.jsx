@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useState } from "react"; 
 
 const Services = () => {
   const [paymentMethod, setPaymentMethod] = useState("creditCard");
@@ -10,9 +9,9 @@ const Services = () => {
       <div className="w-1/4 bg-gray-100 p-6">
         <h1 className="text-xl font-bold mb-8">Jerin's Parlour</h1>
         <ul>
-          <Link to='/book'>
+          
             <li className="mb-4 font-medium text-pink-500">Book</li>
-          </Link>
+          
           <li className="mb-4 text-gray-500">Booking List</li>
           <li className="text-gray-500">Review</li>
         </ul>
