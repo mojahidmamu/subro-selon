@@ -25,7 +25,7 @@ const Home = () => {
       </section>
       {/* Second section */}
       <section>
-        <h1 className="font-bold text-3xl">Our Awesome <span className="text-[#F63E7B]">Services</span></h1>
+        <h1 className="font-bold text-3xl text-center my-5">Our Awesome <span className="text-[#F63E7B]">Services</span></h1>
       </section>
     </div>
   );
