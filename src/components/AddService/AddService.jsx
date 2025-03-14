@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import sideImg1 from "../../assets/assets/icons/Group 1360.png";
 import sideImg2 from "../../assets/assets/icons/Group 1368.png";
 import sideImg3 from "../../assets/assets/icons/Group.png";
+import UploadImageLogo from "../../assets/assets/icons/cloud-upload-outline 1.png";
 
 const AddService = () => {
   return (
@@ -42,8 +43,38 @@ const AddService = () => {
             <h2 className="text-2xl font-semibold">Add service</h2>
             <p className="text-gray-600">Halimatus Sadia binta Yosuf</p>
           </div>
+          {/* Input field */}
+          <div className="flex flex-row gap-4">
+            <div>
+              <label className="fieldset-label">Service Title </label>
+              <input
+                type="text"
+                placeholder="Enter title"
+                className="w-full mb-4 p-3 border rounded"
+              />
+              {/* Description */}
+              <label className="fieldset-label">Description</label>
+              <textarea
+                className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                placeholder="Description here..."
+                rows="4"
+              ></textarea>
+              <button className="btn btn-secondary mt-5 ">Submit</button>
+              {/* Upload Image DIV */}
+            </div>
+            <div>
+              <label className="fieldset-label">Image </label>
+              {/* Upload Image Button */}
+              <div className="flex justify-center items-center gap-3 border-2 rounded-lg p-3">
+                <p className="text-center">Upload Image </p>
+                <img className="w-14 h-14" src={UploadImageLogo} alt="" />
+              </div>
+            </div>
+          </div>
         </div>
+       
       </div>
+      
     </div>
   );
 };
