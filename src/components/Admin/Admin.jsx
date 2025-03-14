@@ -17,6 +17,14 @@ const Admin = () => {
             </div>
           </NavLink>
         </li>
+        <li className="mb-6">
+          <NavLink to="/order-list" className="underline text-red-500">
+            <div className="flex flex-row">
+              {/* <img className="w-8 h-8" src={sideImg2} alt="" /> */}
+              <h5 className="text-xl font-bold ml-5">+ Add Service</h5>
+            </div>
+          </NavLink>
+        </li>
       </ul>
     </div>
   );
