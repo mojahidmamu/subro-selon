@@ -40,7 +40,7 @@ const MakeAdmin = () => {
         <div className="w-3/4 p-10 bg-blue-50">
           <div className="flex justify-between items-center mb-8">
             <h2 className="text-2xl font-semibold">Make Admin</h2>
-            <p className="text-gray-600"> Abdullah all Mojahid</p>
+            <p className="text-gray-600"> Abdullah all Mojahid bin Yosuf</p>
           </div>
           <div>
             <label className="fieldset-label mb-4">Email</label> <br />
