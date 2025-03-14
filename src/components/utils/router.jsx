@@ -3,10 +3,13 @@ import MainLayout from "./MainLayout/MainLayout";
 import Home from "../Home/Home";
 import Login from "../Login/Login";
 import NewAccount from "../NewAccount/NewAccount";
-// import Services from "../Services/Services";
+import Services from "../Services/Services";
 import Contact from "../Contact/Contact";
 import Porfolito from "../Portfolio/Portfolio";
 import Team from "../Team/Team";
+import Book from "../Services/Book";
+import BookingList from "../Services/BookingList";
+import Review from "../Services/Review";
 
 const router = createBrowserRouter([
   {
@@ -25,10 +28,10 @@ const router = createBrowserRouter([
         path: "/account",
         element: <NewAccount></NewAccount>,
       },
-      // {
-      //   path: "/service",
-      //   element: <Services></Services>,
-      // },
+      {
+        path: "/service",
+        element: <Services></Services>,
+      },
       {
         path: "/contact",
         element: <Contact></Contact>,
@@ -41,6 +44,18 @@ const router = createBrowserRouter([
         path: "/team",
         element: <Team></Team>,
       },
+      {
+        path: '/book',
+        element: <Book></Book>
+      },
+      {
+        path: '/booking-list',
+        element: <BookingList></BookingList>
+      },
+      {
+        path: '/review',
+        element: <Review></Review>
+      }
       
     ],
   },
