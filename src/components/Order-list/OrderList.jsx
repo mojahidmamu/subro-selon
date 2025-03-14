@@ -42,6 +42,18 @@ const OrderList = () => {
             <h2 className="text-2xl font-semibold">Order List</h2>
             <p className="text-gray-600">Salma Tasnim binta Yosuf</p>
           </div>
+          {/* Headline Parent*/}
+          <div>
+          {/* Headline */}
+            <div className="flex justify-around flex-row gap-5 bg-slate-400 py-2 pl-2 rounded-lg">
+              <h4 className="font-bold text-xl">Name</h4>
+              <h4 className="font-bold text-xl">Email ID</h4>
+              <h4 className="font-bold text-xl">Service</h4>
+              <h4 className="font-bold text-xl">Pay With </h4>
+              <h4 className="font-bold text-xl">Stutas</h4>
+            </div>
+            {/* Child */}
+          </div>
         </div>
       </div>
     </div>
