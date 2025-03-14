@@ -3,7 +3,7 @@ import MainLayout from "./MainLayout/MainLayout";
 import Home from "../Home/Home";
 import Login from "../Login/Login";
 import NewAccount from "../NewAccount/NewAccount";
-import Services from "../Services/Services";
+// import Services from "../Services/Services";
 import Contact from "../Contact/Contact";
 import Porfolito from "../Portfolio/Portfolio";
 import Team from "../Team/Team";
@@ -25,10 +25,10 @@ const router = createBrowserRouter([
         path: "/account",
         element: <NewAccount></NewAccount>,
       },
-      {
-        path: "/service",
-        element: <Services></Services>,
-      },
+      // {
+      //   path: "/service",
+      //   element: <Services></Services>,
+      // },
       {
         path: "/contact",
         element: <Contact></Contact>,
@@ -41,6 +41,7 @@ const router = createBrowserRouter([
         path: "/team",
         element: <Team></Team>,
       },
+      
     ],
   },
 ]);
