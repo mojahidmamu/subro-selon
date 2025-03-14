@@ -13,12 +13,12 @@ const Book = () => {
         <div className="w-1/4 bg-gray-100 p-6">
           <h1 className="text-xl font-bold mb-8">Jerin's Parlour</h1>
           <ul>
-            <li className="mb-4 font-medium text-pink-500">Book</li>
+            <li className="mb-4 font-medium text-pink-500"> 📖 Book</li>
             <Link to="/booking-list">
-              <li className="mb-4 text-gray-500">Booking List</li>
+              <li className="mb-4 text-gray-500"> 📋 Booking List</li>
             </Link>
             <Link to='/review'>
-              <li className="text-gray-500">Review</li>
+              <li className="text-gray-500"> 💬 Review</li>
             </Link>
           </ul>
         </div>
