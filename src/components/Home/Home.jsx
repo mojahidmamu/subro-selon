@@ -21,7 +21,7 @@ const Home = () => {
                 Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit.
                 Purus commodo ipsum duis <br /> laoreet maecenas. Feugiat
               </p>
-              <button className="btn btn-primary">Get an Appoinment</button>
+              <button className="btn btn-secondary">Get an Appoinment</button>
             </div>
           </div>
         </div>
@@ -92,7 +92,7 @@ const Home = () => {
 
       {/* Third Section */}
       <section>
-        
+
       </section>
     </div>
   );
