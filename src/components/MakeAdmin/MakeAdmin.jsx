@@ -1,5 +1,4 @@
-import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 import sideImg1 from "../../assets/assets/icons/Group 1360.png";
 import sideImg2 from "../../assets/assets/icons/Group 1368.png";
 import sideImg3 from "../../assets/assets/icons/Group.png";
@@ -23,7 +22,6 @@ const MakeAdmin = () => {
               <NavLink to="/add-service" className="underline  ">
                 <div className="flex flex-row">
                   <img className="w-8 h-8" src={sideImg2} alt="" />
-                  {/* <h5 className="font-bold text-xl">+</h5> */}
                   <h5 className="text-xl font-bold ml-5">Add Service</h5>
                 </div>
               </NavLink>
@@ -46,7 +44,7 @@ const MakeAdmin = () => {
           </div>
           <div>
             <label className="fieldset-label mb-4">Email</label> <br />
-            <div className="flex mt-3 gap-5"> 
+            <div className="flex mt-3 gap-5">
               <input
                 type="email"
                 className="input w-64"
