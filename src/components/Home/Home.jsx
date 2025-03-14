@@ -1,5 +1,8 @@
 import React from "react";
 import CoverImg from "../../assets/assets/images/beautiful-young-asian-woman-touching-her-clean-face-with-fresh-healthy-skin-isolated-white-wall-beauty-cosmetics-facial-treatment-concept 1.png";
+import cardImg1 from "../../assets/assets/icons/Group 1372.png";
+import cardImg2 from "../../assets/assets/icons/Group 1373.png";
+import cardImg3 from "../../assets/assets/icons/Group 1374.png";
 
 const Home = () => {
   return (
@@ -23,9 +26,73 @@ const Home = () => {
           </div>
         </div>
       </section>
+
       {/* Second section */}
+      <h1 className="font-bold text-3xl text-center mt-10">
+        Our Awesome <span className="text-[#F63E7B]">Services</span>
+      </h1>
+      <section className="flex justify-center gap-10 p-10">
+        {/* Card-1 */}
+        <div className="text-center p-6 bg-white rounded-lg shadow-md">
+          <div className="flex justify-center mb-4">
+            <img
+              src={cardImg1}
+              alt="Anti Age Face Treatment"
+              className="w-16 h-16"
+            />
+          </div>
+          <h3 className="text-xl font-semibold mb-2">
+            Anti Age Face Treatment
+          </h3>
+          <p className="text-pink-500 text-lg">$199</p>
+          <p className="text-gray-500">
+            We craft stunning and amazing web UI, using a well drafted UX to fit
+            your product.
+          </p>
+        </div>
+        {/*  */}
+        <div className="text-center p-6 bg-white rounded-lg shadow-md">
+          <div className="flex justify-center mb-4">
+            <img
+              src={cardImg2}
+              alt="Hair Color & Styleing"
+              className="w-16 h-16"
+            />
+          </div>
+          <h3 className="text-xl font-semibold mb-2">Hair Color & Styleing</h3>
+          <p className="text-pink-500 text-lg">$99</p>
+          <p className="text-gray-500">
+            Amazing flyers, social media posts and brand representations that
+            would make your brand stand out.
+          </p>
+        </div>
+        {/*  */}
+        <div className="text-center p-6 bg-white rounded-lg shadow-md">
+          <div className="flex justify-center mb-4">
+            <img
+              src={cardImg3}
+              alt="Skin Care Treatment"
+              className="w-16 h-16"
+            />
+          </div>
+          <h3 className="text-xl font-semibold mb-2">Skin Care Treatment</h3>
+          <p className="text-pink-500 text-lg">$299</p>
+          <p className="text-gray-500">
+            With well written codes, we build amazing apps for all platforms,
+            mobile and web apps in general.
+          </p>
+        </div>
+      </section>
+      {/* Button */}
+      <div className="flex justify-center mt-6">
+        <button className="bg-pink-500 text-white px-6 py-2 rounded-md">
+          Explore more
+        </button>
+      </div>
+
+      {/* Third Section */}
       <section>
-        <h1 className="font-bold text-3xl text-center my-5">Our Awesome <span className="text-[#F63E7B]">Services</span></h1>
+        
       </section>
     </div>
   );
