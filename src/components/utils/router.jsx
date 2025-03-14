@@ -10,6 +10,7 @@ import Team from "../Team/Team";
 import Book from "../Services/Book";
 import BookingList from "../Services/BookingList";
 import Review from "../Services/Review";
+import Admin from "../Admin/Admin";
 
 const router = createBrowserRouter([
   {
@@ -55,8 +56,11 @@ const router = createBrowserRouter([
       {
         path: '/review',
         element: <Review></Review>
-      }
-      
+      },
+      {
+        path: '/admin',
+        element: <Admin></Admin>
+      },
     ],
   },
 ]);

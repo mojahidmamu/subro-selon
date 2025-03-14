@@ -10,6 +10,7 @@ const Navbar = () => {
   <Link to='/team'><li><a>Our Team</a></li></Link>
   <Link to='/contact'><li><a>Contact Us</a></li></Link>
   <Link to='/service'><li><a>Services</a></li></Link>
+  <Link to='/admin'><li><a>Admin</a></li></Link>
   </>;
   return (
     <div className="navbar bg-base-100 shadow-sm  mt-3 mb-6">
