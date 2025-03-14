@@ -9,7 +9,7 @@ const Book = () => {
       <h2 className="text-2xl font-semibold mb-4 text-center underline">
         Book Your Service
       </h2>
-      <div className="min-h-screen flex">
+      <div className="flex min-h-screen">
         <div className="w-1/4 bg-gray-100 p-6">
           <h1 className="text-xl font-bold mb-8">Jerin's Parlour</h1>
           <ul>
