@@ -9,17 +9,17 @@ const Sidebar = () => {
       <h1 className="text-xl font-bold mb-8">Jerin's Parlour</h1>
       <ul>
         <li className="mb-6">
-          <NavLink to="/book" className={linkStyle}>
+          <NavLink to="/book" className="underline text-red-500">
             📖 Book
           </NavLink>
         </li>
         <li className="mb-6">
-          <NavLink to="/booking-list" className={linkStyle}>
+          <NavLink to="/booking-list" className="underline text-red-500">
             📋 Booking List
           </NavLink>
         </li>
         <li>
-          <NavLink to="/review" className={linkStyle}>
+          <NavLink to="/review" className="underline text-red-500">
             💬 Review
           </NavLink>
         </li>
