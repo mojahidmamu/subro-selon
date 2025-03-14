@@ -12,6 +12,8 @@ import BookingList from "../Services/BookingList";
 import Review from "../Services/Review";
 import Admin from "../Admin/Admin";
 import OrderList from "../Order-list/OrderList";
+import AddService from "../AddService/AddService";
+import MakeAdmin from "../MakeAdmin/MakeAdmin";
 
 const router = createBrowserRouter([
   {
@@ -65,6 +67,14 @@ const router = createBrowserRouter([
       {
         path: '/order-list',
         element: <OrderList></OrderList>
+      },
+      {
+        path: '/add-service',
+        element: <AddService></AddService>
+      },
+      {
+        path: '/make-admin',
+        element: <MakeAdmin></MakeAdmin>
       }
     ],
   },

@@ -18,10 +18,19 @@ const Admin = () => {
           </NavLink>
         </li>
         <li className="mb-6">
-          <NavLink to="/order-list" className="underline text-red-500">
+          <NavLink to="/add-service" className="underline text-red-500">
             <div className="flex flex-row">
-              {/* <img className="w-8 h-8" src={sideImg2} alt="" /> */}
-              <h5 className="text-xl font-bold ml-5">+ Add Service</h5>
+              <img className="w-8 h-8" src={sideImg2} alt="" />
+              {/* <h5 className="font-bold text-xl">+</h5> */}
+              <h5 className="text-xl font-bold ml-5">Add Service</h5>
+            </div>
+          </NavLink>
+        </li>
+        <li className="mb-6">
+          <NavLink to="/make-admin" className="underline text-red-500">
+            <div className="flex flex-row">
+              <img className="w-8 h-8" src={sideImg3} alt="" />
+              <h5 className="text-xl font-bold ml-5">Make Admin</h5>
             </div>
           </NavLink>
         </li>
