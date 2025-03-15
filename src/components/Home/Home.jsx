@@ -89,7 +89,7 @@ const Home = () => {
         </div>
       </section>
       {/* Button */}
-      <div className="flex justify-center mt-6">
+      <div className="flex justify-center mt-2 mb-6">
         <button className="bg-pink-500 text-white px-6 py-2 rounded-md">
           Explore more
         </button>
@@ -130,7 +130,7 @@ const Home = () => {
       </section>
 
       {/* Fourth Section */}
-      <section className="bg-white p-10 rounded-lg border border-gray-200">
+      <section className="bg-white my-8 p-10 rounded-lg border border-gray-200">
         <h2 className="text-3xl font-bold text-center mb-10">Testimonials</h2>
         {/* People -1 */}
         <div className="flex justify-around">
@@ -219,7 +219,6 @@ const Home = () => {
               <img src={rating} alt="Rating" className="mx-1 w-6 h-6" />
             </div>
           </div>
-          {/*  */}
         </div>
         <div className="flex justify-center mt-6 gap-2">
           <span className="w-3 h-3 bg-gray-300 rounded-full"></span>
@@ -227,6 +226,12 @@ const Home = () => {
           <span className="w-3 h-3 bg-gray-300 rounded-full"></span>
         </div>
       </section>
+
+      {/* Fifth Section */}
+      <section>
+        
+      </section>
+
     </div>
   );
 };
