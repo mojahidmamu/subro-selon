@@ -120,6 +120,11 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Fourth Section */}
+      <section>
+        
+      </section>
     </div>
   );
 };
