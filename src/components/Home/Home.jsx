@@ -95,7 +95,11 @@ const Home = () => {
       <section className="flex items-center gap-10 p-10 bg-pink-50">
         {/* Image Div */}
         <div className="w-1/2">
-          <img src={cardImg4} alt="Facial Treatment" className="rounded-lg w-full" />
+          <img
+            src={cardImg4}
+            alt="Facial Treatment"
+            className="rounded-lg w-full"
+          />
         </div>
         {/* side section */}
         <div className="w-1/2">
@@ -123,7 +127,58 @@ const Home = () => {
 
       {/* Fourth Section */}
       <section>
-        
+        <h2 className="text-3xl font-bold text-center mb-10">Testimonials</h2>
+        <div className="flex justify-around">
+          <div className="text-center w-1/3 px-4">
+            <img
+              src=""
+              alt="Nash Patrik"
+              className="w-16 h-16 rounded-full mx-auto mb-4"
+            />
+            <h3 className="text-lg font-semibold">Nash Patrik</h3>
+            <p className="text-gray-500 mb-4">CEO, Manpol</p>
+            <p className="text-gray-600 mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
+              commodo ipsum duis laoreet maecenas. Feugiat
+            </p>
+            <img src="" alt="Rating" className="mx-auto" />
+          </div>
+
+          <div className="text-center w-1/3 px-4">
+            <img
+              src=""
+              alt="Miriam Barron"
+              className="w-16 h-16 rounded-full mx-auto mb-4"
+            />
+            <h3 className="text-lg font-semibold">Miriam Barron</h3>
+            <p className="text-gray-500 mb-4">CEO, Manpol</p>
+            <p className="text-gray-600 mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
+              commodo ipsum duis laoreet maecenas. Feugiat
+            </p>
+            <img src="" alt="Rating" className="mx-auto" />
+          </div>
+
+          <div className="text-center w-1/3 px-4">
+            <img
+              src=""
+              alt="Bria Malone"
+              className="w-16 h-16 rounded-full mx-auto mb-4"
+            />
+            <h3 className="text-lg font-semibold">Bria Malone</h3>
+            <p className="text-gray-500 mb-4">CEO, Manpol</p>
+            <p className="text-gray-600 mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
+              commodo ipsum duis laoreet maecenas. Feugiat
+            </p>
+            <img src="" alt="Rating" className="mx-auto" />
+          </div>
+        </div>
+        <div className="flex justify-center mt-6 gap-2">
+          <span className="w-3 h-3 bg-gray-300 rounded-full"></span>
+          <span className="w-3 h-3 bg-gray-600 rounded-full"></span>
+          <span className="w-3 h-3 bg-gray-300 rounded-full"></span>
+        </div>
       </section>
     </div>
   );
