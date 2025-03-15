@@ -3,6 +3,7 @@ import CoverImg from "../../assets/assets/images/beautiful-young-asian-woman-tou
 import cardImg1 from "../../assets/assets/icons/Group 1372.png";
 import cardImg2 from "../../assets/assets/icons/Group 1373.png";
 import cardImg3 from "../../assets/assets/icons/Group 1374.png";
+import cardImg4 from "../../assets/assets/images/engin-akyurt-g-m8EDc4X6Q-unsplash 1.png";
 
 const Home = () => {
   return (
@@ -91,8 +92,33 @@ const Home = () => {
       </div>
 
       {/* Third Section */}
-      <section>
-
+      <section className="flex items-center gap-10 p-10 bg-pink-50">
+        {/* Image Div */}
+        <div className="w-1/2">
+          <img src={cardImg4} alt="Facial Treatment" className="rounded-lg w-full" />
+        </div>
+        {/* side section */}
+        <div className="w-1/2">
+          <h2 className="text-3xl font-bold mb-4">
+            Let us handle your screen{" "}
+            <span className="text-pink-500">Professionally.</span>
+          </h2>
+          <p className="text-gray-500 mb-6">
+            With well written codes, we build amazing apps for all platforms,
+            mobile and web apps in general ipsum. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Purus commodo ipsum.
+          </p>
+          <div className="flex gap-10">
+            <div>
+              <p className="text-pink-500 text-3xl font-bold">500+</p>
+              <p className="text-gray-500">Happy Customer</p>
+            </div>
+            <div>
+              <p className="text-pink-500 text-3xl font-bold">16+</p>
+              <p className="text-gray-500">Total Service</p>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );
