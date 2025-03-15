@@ -4,6 +4,10 @@ import cardImg1 from "../../assets/assets/icons/Group 1372.png";
 import cardImg2 from "../../assets/assets/icons/Group 1373.png";
 import cardImg3 from "../../assets/assets/icons/Group 1374.png";
 import cardImg4 from "../../assets/assets/images/engin-akyurt-g-m8EDc4X6Q-unsplash 1.png";
+import people1 from "../../assets/assets/images/Ellipse 90.png"
+import people2 from "../../assets/assets/images/Ellipse 91.png"
+import people3 from "../../assets/assets/images/Ellipse 92.png"
+import rating from "../../assets/assets/icons/Group 33040.png"
 
 const Home = () => {
   return (
@@ -131,7 +135,7 @@ const Home = () => {
         <div className="flex justify-around">
           <div className="text-center w-1/3 px-4">
             <img
-              src=""
+              src={people1}
               alt="Nash Patrik"
               className="w-16 h-16 rounded-full mx-auto mb-4"
             />
@@ -141,12 +145,12 @@ const Home = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
               commodo ipsum duis laoreet maecenas. Feugiat
             </p>
-            <img src="" alt="Rating" className="mx-auto" />
+            <img src={rating} alt="Rating" className="mx-auto" />
           </div>
 
           <div className="text-center w-1/3 px-4">
             <img
-              src=""
+              src={people2}
               alt="Miriam Barron"
               className="w-16 h-16 rounded-full mx-auto mb-4"
             />
@@ -161,7 +165,7 @@ const Home = () => {
 
           <div className="text-center w-1/3 px-4">
             <img
-              src=""
+              src={people3}
               alt="Bria Malone"
               className="w-16 h-16 rounded-full mx-auto mb-4"
             />
