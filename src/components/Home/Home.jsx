@@ -211,12 +211,12 @@ const Home = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
               commodo ipsum duis laoreet maecenas. Feugiat
             </p>
-            <div className="flex justify-normal">
-              <img src={rating} alt="Rating" className="mx-auto w-8 h-8" />
-              <img src={rating} alt="Rating" className="mx-auto w-8 h-8" />
-              <img src={rating} alt="Rating" className="mx-auto w-8 h-8" />
-              <img src={rating} alt="Rating" className="mx-auto w-8 h-8" />
-              <img src={rating} alt="Rating" className="mx-auto w-8 h-8" />
+            <div className="flex">
+              <img src={rating} alt="Rating" className="mx-1 w-6 h-6" />
+              <img src={rating} alt="Rating" className="mx-1 w-6 h-6" />
+              <img src={rating} alt="Rating" className="mx-1 w-6 h-6" />
+              <img src={rating} alt="Rating" className="mx-1 w-6 h-6" />
+              <img src={rating} alt="Rating" className="mx-1 w-6 h-6" />
             </div>
           </div>
           {/*  */}
