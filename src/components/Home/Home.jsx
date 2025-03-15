@@ -228,10 +228,23 @@ const Home = () => {
       </section>
 
       {/* Fifth Section */}
-      <section>
-        
+      <section className="bg-[#d67897] h-auto flex flex-col justify-center items-center">
+        <h1 className="font-bold text-2xl text-center mb-4 p-3 ">
+          Let us handle your <br /> project, professionally.
+        </h1>
+        {/* Parent Div */}
+        <div>
+          {/* Child div */}
+          <div className="flex justify-around items-center m-3 gap-3">
+            <input type="text" className="input" placeholder="Full Name" />
+            <input type="text" className="input" placeholder="Last Name" />
+          </div>
+          <div className="flex justify-around items-center m-3 gap-3">
+            <input type="email" className="input" placeholder="Email Address" />
+            <input type="number" className="input" placeholder="Phone Number" />
+          </div>
+        </div>
       </section>
-
     </div>
   );
 };
