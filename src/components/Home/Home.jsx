@@ -233,7 +233,7 @@ const Home = () => {
           Let us handle your <br /> project, professionally.
         </h1>
         {/* Parent Div */}
-        <div>
+        <div className="w-2/9">
           {/* Child div */}
           <div className="flex justify-around items-center m-3 gap-3">
             <input type="text" className="input" placeholder="Full Name" />
@@ -243,12 +243,13 @@ const Home = () => {
             <input type="email" className="input" placeholder="Email Address" />
             <input type="number" className="input" placeholder="Phone Number" />
           </div>
-          <label className="fieldset-label">Description</label>
-          <textarea
-            className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
-            placeholder="Description here..."
-            rows="4"
-          ></textarea>
+          <div>
+            <textarea
+              className="w-full mb-5 p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+              placeholder="Description here..."
+              rows="4"
+            ></textarea>
+          </div>
         </div>
       </section>
     </div>
