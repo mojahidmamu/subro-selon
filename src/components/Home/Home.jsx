@@ -126,7 +126,7 @@ const Home = () => {
       </section>
 
       {/* Fourth Section */}
-      <section>
+      <section className="bg-white p-10 rounded-lg border border-gray-200">
         <h2 className="text-3xl font-bold text-center mb-10">Testimonials</h2>
         <div className="flex justify-around">
           <div className="text-center w-1/3 px-4">
