@@ -243,6 +243,12 @@ const Home = () => {
             <input type="email" className="input" placeholder="Email Address" />
             <input type="number" className="input" placeholder="Phone Number" />
           </div>
+          <label className="fieldset-label">Description</label>
+          <textarea
+            className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+            placeholder="Description here..."
+            rows="4"
+          ></textarea>
         </div>
       </section>
     </div>
