@@ -94,7 +94,7 @@ const Contact = () => {
       </form>
       <div className="flex flex-col justify-center items-center  mb-5">
         <button className="btn btn-secondary ">Make a call </button> <br />
-        <p>If you click the button |^| - <span className="font-bold text-red-600">Explosion the Computer.... </span> </p>
+        <p>If you click the button |^| - <span className="font-bold text-red-600">Explosion the Computer.... </span>So, be careful. </p>
       </div>
     </div>
   );
